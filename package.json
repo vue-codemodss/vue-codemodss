@@ -1,0 +1,45 @@
+{
+  "name": "vue-codemodss",
+  "version": "1.2.7",
+  "private": false,
+  "description": "Code transformers for Vue projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose",
+    "sortkeys": "node transformers/sort_keys/sortKeys.js"
+  },
+  "keywords": [
+    "vue",
+    "codemod",
+    "ast"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vue-codemodss/vue-codemodss.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vue-codemodss/vue-codemodss/issues"
+  },
+  "author": {
+    "name": "Sergio Crisostomo",
+    "email": "sergiosbox@gmail.com"
+  },
+  "copyright": "Copyright (c) 2019-present, Sérgio Crisóstomo",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^6.3.0",
+    "eslint-config-standard": "^13.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^9.2.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "eslint-plugin-vue": "^5.2.3",
+    "jest": "^24.9.0",
+    "prettier": "^1.18.2"
+  },
+  "dependencies": {
+    "jscodeshift": "^0.6.4",
+    "os-info-checker-es6": "^1.0.7",
+    "vue-template-compiler": "^2.6.10"
+  }
+}

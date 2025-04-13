@@ -1,12 +1,12 @@
-# Vue codemods
+# Vue codemodss
 
 This repository contains a collection of codemod scripts for use with JSCodeshift that help update and refactor Vue and JavaScript files.
 
 
 ### How to use:
 
-    $ npm install vue-codemods
-    $ cd vue-codemods
+    $ npm install vue-codemodss
+    $ cd vue-codemodss
     $ node ./transformers/sort_keys/sortKeys.js --path <folder with vue files>
 
 ### Transformers:
